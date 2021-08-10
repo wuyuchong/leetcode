@@ -1,4 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-print(True ^ False)
+
+dict = {1: 2}
+for key, value in dict:
+    print(key, value)
