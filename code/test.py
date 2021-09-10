@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-0101000
-1011000
-0001000
+from math import *
+print(log10(9) / log10(3) == 2.0)
