@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+class Solution:
+    def isPowerOfFour(self, n: int) -> bool:
+        return (n > 0 and n & (n - 1) == 0 and (n & 0xaaaaaaaa) == 0)
